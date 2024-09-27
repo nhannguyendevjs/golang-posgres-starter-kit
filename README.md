@@ -63,7 +63,7 @@ docker exec -it go-postgres
 #### URI
 
 ```txt
-postgres://admin:admin@localhost:5432/node?schema=public
+postgres://admin:admin@localhost:5432/go?schema=public
 ```
 
 ### Redis
