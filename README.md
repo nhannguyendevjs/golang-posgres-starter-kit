@@ -55,7 +55,7 @@ docker run --name go-postgres-ubuntu --network go-postgres-network -p 80:8080 -p
 ### PostgreSQL
 
 ```bash
-docker run --name go-postgres --network go-postgres-network -p 5432:5432 -e POSTGRES_DB=node -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin -d postgres:latest
+docker run --name go-postgres --network go-postgres-network -p 5432:5432 -e POSTGRES_DB=go -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin -d postgres:latest
 
 docker exec -it go-postgres
 ```
